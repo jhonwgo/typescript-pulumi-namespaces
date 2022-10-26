@@ -26,19 +26,19 @@ pulumi up
 ```
 ```bash
 Diagnostics:
-  pulumi:pulumi:Stack (UpdateScheduler-dev):
-    error: Running program '/home/desarrollo/Proyectos/ampliffy/Tareas/TypeScript-pulumi-namespace' failed with an unhandled exception:
+  pulumi:pulumi:Stack (repotest-dev):
+    error: Running program '/tmp/repotest/TypeScript-pulumi-namespace' failed with an unhandled exception:
     ReferenceError: Validation is not defined
-        at Object.<anonymous> (/home/desarrollo/Proyectos/ampliffy/Tareas/TypeScript-pulumi-namespace/index.ts:10:30)
+        at Object.<anonymous> (/tmp/repotest/TypeScript-pulumi-namespace/index.ts:10:30)
         at Module._compile (node:internal/modules/cjs/loader:1155:14)
-        at Module.m._compile (/home/desarrollo/Proyectos/ampliffy/Tareas/TypeScript-pulumi-namespace/node_modules/ts-node/src/index.ts:439:23)
+        at Module.m._compile (/tmp/repotest/TypeScript-pulumi-namespace/node_modules/ts-node/src/index.ts:439:23)
         at Module._extensions..js (node:internal/modules/cjs/loader:1209:10)
-        at Object.require.extensions.<computed> [as .ts] (/home/desarrollo/Proyectos/ampliffy/Tareas/TypeScript-pulumi-namespace/node_modules/ts-node/src/index.ts:442:12)
+        at Object.require.extensions.<computed> [as .ts] (/tmp/repotest/TypeScript-pulumi-namespace/node_modules/ts-node/src/index.ts:442:12)
         at Module.load (node:internal/modules/cjs/loader:1033:32)
         at Function.Module._load (node:internal/modules/cjs/loader:868:12)
         at Module.require (node:internal/modules/cjs/loader:1057:19)
         at require (node:internal/modules/cjs/helpers:103:18)
-        at Object.<anonymous> (/home/desarrollo/Proyectos/ampliffy/Tareas/TypeScript-pulumi-namespace/node_modules/@pulumi/cmd/run/run.ts:373:33)
+        at Object.<anonymous> (/tmp/repotest/TypeScript-pulumi-namespace/node_modules/@pulumi/cmd/run/run.ts:373:33)
 
 ```
 7. Run the project with tsc.
